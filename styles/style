@@ -1,1 +1,313 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 400;
+  background-color: #1e1e1e;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+ol,
+li,
+article,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+  background-color: #FEE42A;
+  text-decoration-color: #131313;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 24px 20px;
+}
+
+.header_logo_image {
+  width: 78.453px;
+  height: 15.432px;
+  flex-shrink: 0;
+}
+
+.header_menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header_menu-item {
+  color: #F5F5F5;
+}
+
+.header_menu-item_active {
+  text-decoration: none;
+  color: #F5F5F5;
+
+}
+
+.cover {
+  padding-left: 21px;
+  padding-top: 7px;
+  padding-right: 24px;
+  padding-bottom: 5px;
+  background-image: url(../images/cover.svg);
+  background-size: 95% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: right;
+
+}
+
+.intro {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 37px;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.how-to {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.accent-span {
+  display: block;
+
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-right {
+  text-align: right
+}
+
+.cover-title {
+  color: #FFF;
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.intro_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.intro_title {
+  color: #CCC;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  display: inline-block;
+}
+
+.intro_date {
+  white-space: nowrap;
+  color: #CCC;
+}
+
+.intro_main-text {
+  padding-top: 24px;
+  color: #F5F5F5;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.content-section_subtitle {
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+
+}
+
+.content-section_introduction {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+
+}
+
+.content-section_list {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+  align-items: flex-start;
+  gap: 16px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.content-section_list-accent {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.6px;
+}
+
+.content-section_list-item {
+
+  width: 304px;
+}
+
+.cards-list {
+  list-style-type: none;
+
+}
+
+.card {
+  margin-bottom: 32px;
+  padding: 20px;
+  border-radius: 30px;
+
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #F5F5F5;
+
+
+  margin: 0;
+}
+
+.card_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+  margin-top: 32px;
+
+
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 20px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+
+
+}
+
+.card__text {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+  margin-top: 8px;
+
+}
+
+.footer {
+  padding: 20px;
+  border-top: 1px solid #FEE42A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_copy {
+  color: #F5F5F5;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  display: inline-block;
+}
+
+.footer_links {
+
+  line-height: 17.5px;
+  list-style-type: none;
+  display: flex;
+  column-gap: 16px;
+
+}
+
+.footer_links-text {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
